@@ -6,6 +6,8 @@ import MapViewer from './pages/MapViewer';
 import DataCatalog from './pages/DataCatalog';
 import SpatialAnalysis from './pages/SpatialAnalysis';
 import Reports from './pages/Reports';
+import DiagnosticoCamadas from './DiagnosticoCamadas';
+
 import './App.css';
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <Route path="/datacatalog" element={<DataCatalog />} />
           <Route path="/analysis" element={<SpatialAnalysis />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/diagnostico" element={<DiagnosticoCamadas />} />
         </Routes>
       </Layout>
     </Router>

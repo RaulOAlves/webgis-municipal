@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: basedosdados
+Version: 2.0.2
+Summary: Organizar e facilitar o acesso a dados brasileiros através de tabelas públicas no BigQuery.
+Home-page: https://github.com/basedosdados/sdk
+License: MIT
+Author: Joao Carabetta
+Author-email: joao.carabetta@gmail.com
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: all
+Provides-Extra: avro
+Provides-Extra: upload
+Requires-Dist: google-api-python-client (>=2.86,<3.0)
+Requires-Dist: google-cloud-bigquery (>=3.10,<4.0)
+Requires-Dist: google-cloud-bigquery-connection (>=1.12,<2.0)
+Requires-Dist: google-cloud-bigquery-storage (>=2.19,<3.0)
+Requires-Dist: google-cloud-storage (>=2.9,<3.0)
+Requires-Dist: gql (>=3.4,<4.0) ; extra == "all" or extra == "upload"
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pandas (>=2.0,<3.0)
+Requires-Dist: pandas-gbq (>=0.19)
+Requires-Dist: pandavro (>=1.7,<2.0) ; extra == "all" or extra == "avro"
+Requires-Dist: pydata-google-auth (>=1.8,<2.0)
+Requires-Dist: requests-toolbelt (>=1,<2) ; extra == "all" or extra == "upload"
+Requires-Dist: tomlkit (>=0.11,<0.12)
+Requires-Dist: tqdm (>=4,<5)
+Project-URL: Repository, https://github.com/basedosdados/sdk

@@ -1,0 +1,6 @@
+*.csv
+*.shp
+*.geojson
+*.tif
+raw/*
+processed/*
